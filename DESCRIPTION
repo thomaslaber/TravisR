@@ -10,5 +10,7 @@ Depends: R (>= 3.4)
 License: GPL-3 
 Encoding: UTF-8
 LazyData: true
-Suggests: testthat
+Suggests: 
+    testthat,
+    covr
 RoxygenNote: 6.0.1
