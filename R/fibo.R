@@ -1,3 +1,19 @@
+#' Add together two numbers
+#'
+#' @param n A number
+#' @return Fibo
+
+Fibonacci <- function(n){
+  a <- 0
+  b <- 1
+  for (i in 1:n){
+    temp <- b
+    b <- a
+    a <- a + temp
+  }
+  return(a)
+}
+
 # Hello, world!
 #
 # This is an example function named 'hello'
@@ -12,7 +28,3 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-
-hello <- function() {
-  print("Hello, world!")
-}
