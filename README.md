@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/thomaslaber/TravisR.svg?branch=master)](https://travis-ci.com/thomaslaber/TravisR)
-[![codecov.io](https://codecov.io/github/thomaslaber/TravisR.svg?branch=master)](https://codecov.io/github/thomaslaber/TravisR?branch=master)
+[![codecov](https://codecov.io/gh/thomaslaber/TravisR/branch/master/graph/badge.svg)](https://codecov.io/gh/thomaslaber/TravisR)
+
+
 
 
 # TravisR
