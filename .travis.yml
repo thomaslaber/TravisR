@@ -1,4 +1,5 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+# random change
 
 language: R
 sudo: false
@@ -6,6 +7,7 @@ cache: packages
 
 r_packages:
   - covr
+  - devtools
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
