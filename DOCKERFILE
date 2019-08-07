@@ -1,0 +1,8 @@
+FROM rocker/rstudio:3.5.3 
+
+RUN mkdir -p /usr/src/app 
+WORKDIR /usr/src/app 
+
+COPY * ./TravisR/ 
+WORKDIR /usr/src/app/TravisR 
+
